@@ -1,0 +1,39 @@
+.control {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.control label {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+}
+
+.control label:hover {
+    background-color: #eee;
+}
+
+.control input {
+    width: 70%;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+}
